@@ -35,12 +35,8 @@
                     y profesionales.
                     <a href="https://openai.com/chatgpt" target="_blank">Más información</a>
                 </p>
-                <img src="img/chatgpt.webp" 
-                    title="Una imagen de ChatGPT" 
-                    alt="Encontramos el logo de ChatGPT" 
-                    height="100px"
-                    width="200px" 
-                    />
+                <img src="img/chatgpt.webp" title="Una imagen de ChatGPT" alt="Encontramos el logo de ChatGPT"
+                    height="100px" width="200px" />
             </article>
 
             <article>
@@ -50,12 +46,8 @@
                     generar texto, resolver dudas y ofrecer información actualizada desde la web.
                     <a href="https://bard.google.com" target="_blank">Página oficial</a>
                 </p>
-                <img src="img/gemini.webp" 
-                    title="Una imagen de Gemini" 
-                    alt="Encontramos el logo de Gemini" 
-                    height="100px"
-                    width="150px" 
-                    />
+                <img src="img/gemini.webp" title="Una imagen de Gemini" alt="Encontramos el logo de Gemini"
+                    height="100px" width="150px" />
             </article>
 
             <article>
@@ -65,15 +57,54 @@
                     a partir de descripciones de texto, muy utilizada en diseño gráfico y arte digital.
                     <a href="https://www.midjourney.com" target="_blank">Visitar Midjourney</a>
                 </p>
-                <img src="img/midjourney.webp" 
-                    title="Una imagen de Midjourney" 
-                    alt="Encontramos el logo de Midjourney" 
-                    height="100px"
-                    width="200px" 
-                    />
+                <img src="img/midjourney.webp" title="Una imagen de Midjourney" alt="Encontramos el logo de Midjourney"
+                    height="100px" width="200px" />
             </article>
 
         </section>
+
+        <section>
+
+            <h2>Deixa la teva valoració</h2>
+
+            <form action="#" method="post">
+
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom"><br><br>
+
+                <label for="email">Correu electrònic:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+                <label for="ia">Quina IA vols valorar?</label><br>
+                <select id="ia" name="ia">
+                    <option value="chatgpt">ChatGPT</option>
+                    <option value="midjourney">midjourney</option>
+                    <option value="gemini">Gemini</option>
+                </select><br><br>
+
+                <p>Com valores aquesta IA?</p>
+                <input type="radio" id="excel·lent" name="valoracio" value="excel·lent">
+                <label for="excel·lent">Excel·lent</label><br>
+
+                <input type="radio" id="bona" name="valoracio" value="bona">
+                <label for="bona">Bona</label><br>
+
+                <input type="radio" id="millorable" name="valoracio" value="millorable">
+                <label for="millorable">Millorable</label><br><br>
+
+                <label for="comentaris">Comentari:</label><br>
+                <textarea id="comentaris" name="comentaris" rows="4" cols="40"
+                    placeholder="Escriu aquí els teus comentaris..."></textarea><br><br>
+
+                <input type="checkbox" id="novetats" name="novetats">
+                <label for="novetats">Vull rebre novetats sobre IA</label><br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </section>
+
     </main>
 
     <footer>
