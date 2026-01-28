@@ -6,11 +6,28 @@ body {
     margin: 30px;
 }
 
-nav ul {
+ul {
     list-style: none;
 }
 
-nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+a {
+    color: white
 }
+
+section a {
+    color: white;
+}
+
+section a:hover {
+    color: orange;
+    text-decoration: underline overline;
+}
+
+section a:visited {
+    color: pink;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
