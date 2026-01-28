@@ -1,0 +1,16 @@
+body {
+    background-color: #222;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
