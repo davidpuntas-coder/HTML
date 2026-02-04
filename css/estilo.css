@@ -15,7 +15,7 @@ a {
 }
 
 section a {
-    color: white;
+    color: green;
 }
 
 section a:hover {
@@ -29,5 +29,9 @@ section a:visited {
 
 nav ul li a:hover {
     color: orange;
+}
+
+.grande::first-letter {
+    font-size: 32px;
 }
 
