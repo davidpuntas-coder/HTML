@@ -1,5 +1,6 @@
 :root {
     --color-fondo: #222;
+    --color-fondo-tarjetas: #333;
     --color-texto: #ffffff;
     --color-enlace: white;
     --color-enlace-section: green;
@@ -58,6 +59,26 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+#articulos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#articulos article {
+    background-color: var(--color-fondo-tarjetas);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    transition: transform 1s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
