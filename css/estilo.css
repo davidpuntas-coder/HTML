@@ -1,7 +1,17 @@
+:root {
+    --color-fondo: #222;
+    --color-texto: #ffffff;
+    --color-enlace: white;
+    --color-enlace-section: green;
+    --color-hover: orange;
+    --color-visitado: pink;
+    --fuente-principal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
-    background-color: #222;
-    color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente-principal);
     font-size: 16px;
     margin: 30px;
 }
@@ -11,27 +21,90 @@ ul {
 }
 
 a {
-    color: white
+    color: var(--color-enlace);
 }
 
 section a {
-    color: green;
+    color: var(--color-enlace-section);
 }
 
 section a:hover {
-    color: orange;
+    color: var(--color-hover);
     text-decoration: underline overline;
 }
 
 section a:visited {
-    color: pink;
+    color: var(--color-visitado);
 }
 
 nav ul li a:hover {
-    color: orange;
+    color: var(--color-hover);
 }
 
 .grande::first-letter {
     font-size: 32px;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+
+    p {
+        font-size: 14px;
+        color: purple;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1280px) {
+
+    p {
+        font-size: 16px;
+        color: red;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    p {
+        font-size: 18px;
+        color: cyan;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
 }
 
